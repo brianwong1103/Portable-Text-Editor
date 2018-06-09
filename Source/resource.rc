@@ -1,0 +1,23 @@
+#include "main.h"
+
+MAINMENU MENU 
+{
+ POPUP "&檔案/File"
+ {
+  MENUITEM "&打開/Open...", CM_FILE_OPEN
+  MENUITEM "&另存新檔/Save&As...", CM_FILE_SAVEAS
+  MENUITEM SEPARATOR
+  MENUITEM "&結束/Quit", CM_FILE_EXIT
+ }
+
+ POPUP "&說明/Help"
+ {
+  MENUITEM "&關於/About", CM_ABOUT
+  MENUITEM "&開發者網站/Developer Website", CM_LINK
+ }
+ POPUP "&更新/Update"
+ {
+  MENUITEM "&下載最新版本(安裝包)/Download Latest Version(Installer)", CM_DLLWS
+ }
+}
+
